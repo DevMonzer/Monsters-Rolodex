@@ -1,5 +1,7 @@
-import React from "react";
+import React from 'react';
 
-export const CardList = prop => {
-    return <div>{prop.cheildern}</div>
+import './card-list.styles.css'
+
+export const CardList = props => {
+  return <div className='card-list'>{props.childern}</div>
 };
