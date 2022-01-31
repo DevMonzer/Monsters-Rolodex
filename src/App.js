@@ -10,6 +10,10 @@ class App extends React.Component {
       monsters: []
    };
  }
+
+ componentDidMount(){
+   fetch().then().then()
+ }
   render(){
     return (
       <div className="App">
