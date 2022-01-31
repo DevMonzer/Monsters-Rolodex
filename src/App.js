@@ -14,11 +14,9 @@ class App extends React.Component {
     return (
       <div className="App">
         <header className="App-header">
-
-             <p>{this.state.string}</p>
-            <button onClick={() => this.setState({string: 'hello Monzer'})}>Change Text</button>
-            <button onClick={() => this.setState({string: ' Monzer'})}>Change Text</button>
-         
+          {this.state.monsters.map(monster => 
+              <h1 key={monster.id}>{monster.name}</h1>
+            )}
         </header>
       </div>
     );
