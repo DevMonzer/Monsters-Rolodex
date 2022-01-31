@@ -7,7 +7,7 @@ class App extends React.Component {
    super();
 
    this.state = {
-      string: 'hello monzer'
+      monsters: []
    };
  }
   render(){
