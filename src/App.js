@@ -12,7 +12,7 @@ class App extends React.Component {
  }
 
  componentDidMount(){
-   fetch('https://jsonplaceholder.typicode.com/users').then().then()
+   fetch('https://jsonplaceholder.typicode.com/users').then(response => response.json()).then()
  }
   render(){
     return (
