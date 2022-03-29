@@ -1,1 +1,1 @@
-A react web app
+React web app
