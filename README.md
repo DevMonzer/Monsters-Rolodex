@@ -1,6 +1,6 @@
 # Monsters-Rolodex
 
-Nexter app watch live -> https://monsters-rolodex-jade.vercel.app/
+Monsters Rolodex app watch live -> https://monsters-rolodex-jade.vercel.app/
 
 ## What to do 
 1. Clone this repo     
