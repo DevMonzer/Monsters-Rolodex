@@ -1,6 +1,6 @@
 # Monsters-Rolodex
 
-Monsters-Rolodex app watch live -> 
+Monsters-Rolodex app watch live -> https://monsters-rolodex-jade.vercel.app/
 
 
 ## What to do  
