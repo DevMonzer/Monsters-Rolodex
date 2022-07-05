@@ -6,10 +6,19 @@
   border-radius: 5px;
   padding: 25px;
   cursor: pointer;
-  -moz-osx-font-smoothing: grayscale;
   backface-visibility: hidden;
   transform: translateZ(0);
   transition: transform 0.25s ease-out;
+}
+
+@media only screen and (max-width: 550px) {
+  .card-container {
+    width: 70%;
+  }
+
+  img {
+    width: 100%;
+  }
 }
 
 .card-container:hover {

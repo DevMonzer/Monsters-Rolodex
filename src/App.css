@@ -1,9 +1,20 @@
-.App {
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto, Oxygen", serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(
+    to left,
+    rgba(7, 27, 8, 1) 0%,
+    rgba(0, 128, 128, 1) 100%
+  );
   text-align: center;
 }
 
-h1 {
-  font-family: 'Bigelow Rules';
-  font-size: 72px;
+.app-title {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 76px;
   color: #0ccac4;
 }
